@@ -112,6 +112,10 @@ h1 .glow { color: var(--lantern); }
 }
 .facts dt { color: var(--moss); }
 .facts dd { margin: 0; }
+.jump { margin: 1.25rem 0 0; font: 500 0.85rem/1 var(--mono); letter-spacing: 0.04em; }
+.jump a { color: var(--lantern); }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
 h2 {
   font: 400 1.75rem/1.15 var(--display);
@@ -282,6 +286,7 @@ footer { font: 0.8rem/1.5 var(--mono); color: var(--moss); }
       <dt>the day</dt><dd>sun 22 nov</dd>
       <dt>where</dt><dd>the garden, a forest near porto, portugal</dd>
     </dl>
+    <p class="jump"><a href="#rsvp">rsvp ↓</a></p>
     <figure class="hero-photo bleed">
       <img src="img/forest.jpg" width="1600" height="900" alt="the lake at the garden from above, surrounded by forest">
       <figcaption>the lake from above. 9 hectares of forest, two springs</figcaption>
@@ -359,12 +364,12 @@ footer { font: 0.8rem/1.5 var(--mono); color: var(--moss); }
 
   <section>
     <h2>the weekend <svg class="doodle" style="--r:-4deg" aria-hidden="true"><use href="#d-moon"/></svg></h2>
-    <p>mostly this is time to talk, hang out and catch up. the rest is optional.</p>
+    <p>mostly this is time to talk, hang out and catch up. the rest is optional. the moon will be almost full all weekend, and full on tuesday.</p>
     <figure class="band bleed"><img src="img/candles.jpg" width="1600" height="734" alt="candles burning on a wooden table at night" loading="lazy"></figure>
     <ol class="days">
       <li><time>fri 20</time><div><strong>arrive</strong><p>arriving in the space, settling in, catching up, first sauna and hot tub</p></div></li>
       <li><time>sat 21</time><div><strong>hang out, then party</strong><p>long talks, forest walks, full gym if you want it. dinner, then singing and dancing into my birthday at midnight, maybe a ritual</p></div></li>
-      <li class="bday"><time>sun 22</time><div><strong>my birthday</strong><p>slow morning, long lunch, more talking, more sauna</p></div></li>
+      <li class="bday"><time>sun 22</time><div><strong>my birthday</strong><p>slow morning, long brunch, more talking, birthday dinner, more sauna</p></div></li>
       <li><time>mon 23</time><div><strong>slow day</strong><p>nothing planned. forest, sauna, more talking. space for whatever emerges, depending on how we feel</p></div></li>
       <li><time>tue 24</time><div><strong>send-off brunch</strong><p>then goodbyes, or stay on longer on your <a href="https://in.thegarden.pt/" target="_blank" rel="noopener">own tab</a></p></div></li>
     </ol>
@@ -393,7 +398,7 @@ footer { font: 0.8rem/1.5 var(--mono); color: var(--moss); }
     <h2>weather <svg class="doodle" style="--r:6deg" aria-hidden="true"><use href="#d-sock"/></svg></h2>
     <p>late november here is mild and wet. over the last ten years, these days were usually 13–18° during the day and 6–13° at night. about half of them had rain. some years it poured all weekend, some years it was dry and sunny.</p>
     <p>on average there are about 6–7 hours of sunshine a day, so depending on where you're coming from, you might actually get to recharge on sun a bit.</p>
-    <p class="note">the garden is normally closed in winter, and the big halls are cold and hard to heat. so we'll hang out in the cork room, which is usually used for yoga and meditation. there's also a big kitchen in the stone house with a wood stove, and the cabins have electric radiators. the rest of the warmth is in the sauna and the hot tub. dress for potential cold in between.</p>
+    <p class="note">the garden is normally closed in winter, and the big halls are cold and hard to heat. so we'll hang out in the cork room. there's also a big kitchen in the stone house with a wood stove, and the cabins have electric radiators. the rest of the warmth is in the sauna and the hot tub. dress for potential cold in between.</p>
     <div class="pack">
       <div>
         <h3>bring</h3>
@@ -401,6 +406,7 @@ footer { font: 0.8rem/1.5 var(--mono); color: var(--moss); }
           <li>wool socks and slippers</li>
           <li>a big sweater, layers</li>
           <li>an umbrella</li>
+          <li>a headlamp or torch (it gets dark around 5pm)</li>
         </ul>
       </div>
       <div>
@@ -408,6 +414,7 @@ footer { font: 0.8rem/1.5 var(--mono); color: var(--moss); }
         <ul>
           <li>a rain jacket and good boots</li>
           <li>a robe (sauna and hot tub are nude, swimwear if you'd rather)</li>
+          <li>earplugs, if you're sleeping in the dorm</li>
         </ul>
       </div>
     </div>
